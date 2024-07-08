@@ -32,6 +32,6 @@ jobs:
       - name: capture build artifacts
         if: ${{ matrix.java == '17' }} # Only upload artifacts built from latest java
         uses: actions/upload-artifact@v4
-        with:./
+        with:./ 
           name: Artifacts
           path: build/libs/
