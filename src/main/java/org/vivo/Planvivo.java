@@ -7,7 +7,7 @@ import org.slf4j.LoggerFactory;
 
 public class Planvivo implements ModInitializer {
 
-	public static final public String MODID = "planvivo"
+	public static final String MODID = "planvivo";
 
     public static final Logger LOGGER = LoggerFactory.getLogger("MODID");
 
