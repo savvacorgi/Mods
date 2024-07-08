@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "planvivo",
+	"version": "${version}",
+	"name": "planvivo fnaf horror",
+	"description": "Just mod for testing btw",
+	"authors": [
+		"Stalin",
+		"lenin",
+		"Deddom_14",
+		"Savvacorgi"
+	],
+	"contact": {
+		"homepage": "Savvacorgi.cloudns.ch",
+		"sources": "Nebydet.ru"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/planvivo/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"org.vivo.Planvivo"
+		],
+		"client": [
+			"org.vivo.PlanvivoClient"
+		]
+	},
+	"mixins": [
+		"planvivo.mixins.json",
+		{
+			"config": "planvivo.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
