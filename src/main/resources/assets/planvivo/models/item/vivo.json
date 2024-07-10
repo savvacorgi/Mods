@@ -1,0 +1,6 @@
+{
+  "parent": "got/generated",
+  "textures": {
+    "layer0": "planvivo:item/vivo"
+  }
+}
