@@ -12,7 +12,7 @@ import org.vivo.Planvivo;
 
 public class ModItems {
 
-    public static final Item VIVO = registerItem("vivo", new Item(new FabricItemSettings()));
+    public static final Item VIVO = registerItem("vivo", new Item(new FabricItemSettings().maxDamage(7).maxCount(1)));
 
     private static void addItemToGroup(FabricItemGroupEntries entries){
         entries.add(VIVO);
